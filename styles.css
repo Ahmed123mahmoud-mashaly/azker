@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: black;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ddbea9;
+    margin-bottom: 20px;
+}
+
+.zekr-container {
+    margin: 20px 0;
+    background-color:#f1f1f1 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#currentZekr {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#counter {
+    font-size: 16px;
+    color: #666;
+}
+
+.controls {
+    margin: 15px 0;
+}
+
+button {
+    background-color: #ddbea9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ddbea9;
+}
+
+.start-buttons {
+    margin-top: 20px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/background.jpg'); /* استبدل بمسار الصورة */
+    background-size: cover; /* اجعل الصورة تغطي الصفحة */
+    background-position: center; /* تمركز الصورة في المنتصف */
+    background-repeat: no-repeat; /* منع التكرار */
+}
+.container {
+    background: rgba(255, 255, 255, 0.8); /* لون أبيض بشفافية 80% */
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+body h1{
+    background-color: black;
+}
